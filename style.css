@@ -1,3 +1,20 @@
+/*Ajout background bloc 5 acceuil pour SEO contraste*/
+#bloc-5-cta > .container.bloc-lg > .row
+{
+    background-color: rgba(78, 60, 12, 0.7);
+    width: 50%;
+    margin-left: 25%;
+    padding: 1em;
+}
+/*Changement couleur texte footer SEO contraste*/
+#bloc-8, 
+#bloc-8 > .container.bloc-sm > .row > .col-sm-12 > .text-center.white,
+.col-sm-3 > .text-center > a > span,
+.row > .col-sm-4 > ul > li > a
+{
+    color: #333333;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -651,7 +668,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #575757;
 }
 
 .container {
@@ -736,7 +753,7 @@ h4 {
 }
 
 .white {
-    color: #FFFFFF!important;
+    color: #FFFFFF;
 }
 
 .portfolio-thumb {
@@ -753,7 +770,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 0.7);
+    background-color: rgba(78, 60, 12, 0.7); /*! changement SEO contraste*/
     padding: 40px 40px 40px 40px;
 }
 
@@ -780,7 +797,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF!important;
+    color: #333333!important; /*changement SEO contraste*/
 }
 
 .btn-atomic-tangerine:hover {
