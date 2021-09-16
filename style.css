@@ -14,6 +14,27 @@
 {
     color: #333333;
 }
+/*Ajout CSS pour le texte remplaçants les images de texte*/
+.services-quote
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.services-quote > q 
+{
+    font-size: 1.3em;
+    width: 50%;
+}
+.portfolio-quote
+{
+    display: flex;
+    justify-content: center;
+}
+.portfolio-quote > h2
+{
+    width: 50%;
+}
 
 body {
     margin: 0;
