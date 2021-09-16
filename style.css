@@ -14,7 +14,31 @@
 {
     color: #333333;
 }
-/*Ajout CSS pour le texte remplaçants les images de texte*/
+/*Changement de couleur bloc 6 page 2 SEO contraste*/
+.p2-h1
+{
+    color: #333333;
+    width: 50%;
+    margin-left: 25%;
+    display: flex;
+    justify-content: center;
+    font-size: 2.5em;
+}
+.p2-title
+{
+    color: #333333;
+    width: 60%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    font-size: 1em;
+}
+/*Changement couleur address page2 contraste SE0*/
+address
+{
+    color: #333333;
+}
+/*Ajout CSS pour le texte remplaçants les images de texte SEO*/
 .services-quote
 {
     display: flex;
@@ -26,15 +50,16 @@
     font-size: 1.3em;
     width: 50%;
 }
-.portfolio-quote
+.portfolio-title, .services-title
 {
     display: flex;
     justify-content: center;
 }
-.portfolio-quote > h2
+.portfolio-title > h2, .services-title > h2
 {
-    width: 50%;
+    width: 60%;
 }
+
 
 body {
     margin: 0;
@@ -813,7 +838,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #F3976C;
 }
 
 .btn-atomic-tangerine {
