@@ -18,19 +18,11 @@
 .p2-h1
 {
     color: #333333;
-    width: 50%;
-    margin-left: 25%;
-    display: flex;
-    justify-content: center;
     font-size: 2.5em;
 }
 .p2-title
 {
     color: #333333;
-    width: 60%;
-    margin-left: 20%;
-    display: flex;
-    justify-content: center;
     font-size: 1em;
 }
 /*Changement couleur address page2 contraste SE0*/
@@ -786,7 +778,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
+    color: #333333;
 }
 
 h4 {
